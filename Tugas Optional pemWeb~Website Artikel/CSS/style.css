@@ -1,0 +1,111 @@
+* {margin : 0; padding : 0;}
+body {
+	width: 1000px;
+	margin: auto;
+}
+
+header {
+	width: 500px;
+	height: 250px;
+}
+header img {
+	width: 900px;
+	height: 250px;
+}
+
+menu {
+	width: 880px;
+	height: 25px;
+	background: #964B00;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+menu li {
+	list-style: none;
+	float: left;
+	margin-right: 10px; 
+	margin-top: 5px;
+	color: #fff;
+}
+menu li a {
+	text-decoration: none;
+	color: #fff;
+}
+menu li a:hover {
+	color: blue;
+}
+
+.recomended {
+	width: 900px;
+	overflow: hidden;
+	background-color: silver;
+	margin-top: 5px;
+}
+.recomended h1 {
+	text-align: center;
+}
+.recomended .recomendedKiri{
+	width: 435px;
+	float: left;
+	margin: 10px 5px 5px 10px;
+}
+.recomended img {
+	width: 150px;
+	height: 130px;
+	float: left;
+	margin: 3px 10px 1px 0px;
+	box-shadow: 5px 7px 2px #333; 
+}
+.recomended p {
+	text-align: justify;
+}
+.recomended .recomendedKanan{
+	width: 435px;
+	float: left;
+	margin: 10px 10px 5px 5px;
+}
+.recomended a{
+	text-decoration: none;
+	color: #000;
+}
+.recomended a:hover {
+	color: blue;
+}
+.recomended h3 {
+	color: #000;
+}
+.PondoknyaAbahDjoko {
+	width: 900px;
+	background-color: #964B00;
+	margin-top: 5px;  
+}
+.PondoknyaAbahDjoko p {
+	text-align:justify;
+	margin: 2px 5px 3px 10px;
+}
+.PondoknyaAbahDjoko .FaktaSeputarJA {
+	width: 245px;
+	float: left;
+	background-color: #f90;
+}
+.PondoknyaAbahDjoko .FaktaSeputarJA img {
+	width: 150px;
+	height: 75px;
+	float: left;
+	margin: 5px 5px 3px 10px; 
+}
+.PondoknyaAbahDjoko .FaktaSeputarJA h3 {
+	text-align: center;
+	margin: 5px 0; 
+}
+.PondoknyaAbahDjoko .FaktaSeputarJA h4 {
+	text-align: left;
+	margin: 2px 0 0 10px;
+	color: white;
+}
+.PondoknyaAbahDjoko .Edukasi {
+	width: 650px;
+	background-color: #f90;
+	float: left;
+}
